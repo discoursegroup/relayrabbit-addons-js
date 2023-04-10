@@ -1,0 +1,25 @@
+{
+  "compilerOptions": {
+    "noImplicitAny": true,
+    "outDir": "build/types",
+    "module": "ESNEXT",
+    "target": "ESNEXT",
+    "allowJs": true,
+    "sourceMap": true,
+    "removeComments": true,
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop" : true,
+    "declaration": true,
+    "emitDeclarationOnly": true,
+    "skipLibCheck": true,
+    "isolatedModules": false,
+    "suppressImplicitAnyIndexErrors": true,
+    "lib": ["es2020", "dom"],
+    "moduleResolution": "node",
+  },
+  "typeAcquisition": {
+    "exclude": ["**/*.js"]
+  },
+  "include": ["src/**/*.ts"],
+  "exclude": ["**/*.spec.ts"]
+}

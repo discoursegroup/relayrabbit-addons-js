@@ -1,0 +1,23 @@
+{
+  "ignorePaths": [
+    "**/node_modules/**",
+    "**/vscode-extension/**",
+    "**/.automation/generated/**",
+    "**/.git/**",
+    "**/package-lock.json",
+    "./src/demo/index.ts",
+    "lib",
+    "report",
+    ".vscode"
+  ],
+  "language": "en",
+  "version": "0.2",
+  "words": [
+    "Raship",
+    "relayrabbit",
+    "relayrabbit-js",
+    "discoursegroup",
+    "Swapnil",
+    "typedoc"
+  ]
+}

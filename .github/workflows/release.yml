@@ -1,0 +1,28 @@
+name: Release
+
+on:
+  push:
+    branches: [ main ]
+
+jobs:
+  release:
+    name: Publish
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-node@v3
+        with:
+          node-version: 16
+          registry-url: 'https://registry.npmjs.org/'
+      - run: npm ci
+      - run: git config --global user.email "cibot@discoursegroup.com" && git config --global user.name "DiscourseGroup Release Bot"
+      - run: npm run test
+      - run: npm run build
+      - run: npm run doc
+      - run: npm run release
+      - run: git push --follow-tags origin main
+      - run: npm publish --access public
+        env:
+          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
