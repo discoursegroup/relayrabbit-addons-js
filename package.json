@@ -113,7 +113,7 @@
     "build/types/transformers/crypto/aes-256.d.ts",
     "build/types/transformers/crypto/arraybuffer-to-encrypt-aes128-transformer.d.ts",
     "build/types/transformers/crypto/arraybuffer-to-encrypt-aes256-transformer.d.ts",
-    "build/types/transformers/json/arraybuffer-to-json-transformer.d.ts"
+    "build/types/transformers/json/json-to-arraybuffer-transformer.d.ts"
   ],
   "directories": {
     "test": "test",
