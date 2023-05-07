@@ -121,6 +121,6 @@
   },
   "peerDependencies": {
     "@discoursegroup/commons-js": "^0.0.10",
-    "@discoursegroup/relayrabbit-commons-js": "^0.0.5"
+    "@discoursegroup/relayrabbit-commons-js": "^0.0.6"
   }
 }
