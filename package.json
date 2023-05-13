@@ -1,6 +1,6 @@
 {
   "name": "@discoursegroup/relayrabbit-addons-js",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Addon utilities to be used by the RelayRabbit JS projects",
   "main": "build/index.js",
   "typings": "build/types/index.d.ts",
