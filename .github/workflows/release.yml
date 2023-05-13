@@ -13,12 +13,13 @@ jobs:
         with:
           persist-credentials: false
           fetch-depth: 0
+          token: ${{ secrets.CI_GH_TOKEN }}
       - uses: actions/setup-node@v3
         with:
           node-version: 16
           registry-url: 'https://registry.npmjs.org/'
       - run: npm ci
-      - run: git config --global user.email "cibot@discoursegroup.com" && git config --global user.name "DiscourseGroup Release Bot"
+      - run: git config --global user.email "admin@discoursegroup.com" && git config --global user.name "DiscourseGroup Release Bot"
       - run: npm run test
       - run: npm run build
       - run: npm run doc
