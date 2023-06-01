@@ -120,7 +120,7 @@
     "src": "src"
   },
   "peerDependencies": {
-    "@discoursegroup/commons-js": "^0.0.10",
-    "@discoursegroup/relayrabbit-commons-js": "^0.0.6"
+    "@discoursegroup/commons-js": "^0.0.11",
+    "@discoursegroup/relayrabbit-commons-js": "^0.0.7"
   }
 }
