@@ -2,6 +2,8 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.0.370](https://github.com/discoursegroup/relayrabbit-addons-js/compare/v0.0.369...v0.0.370) (2023-06-02)
+
 ### [0.0.369](https://github.com/discoursegroup/relayrabbit-addons-js/compare/v0.0.368...v0.0.369) (2023-06-02)
 
 ### [0.0.368](https://github.com/discoursegroup/relayrabbit-addons-js/compare/v0.0.367...v0.0.368) (2023-06-02)
